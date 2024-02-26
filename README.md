@@ -27,3 +27,13 @@ The address may vary, to find out your local network address, run the following 
 ```bash
 ipconfig
 ```
+
+### Styling Options
+
+There are three main ways to style a Next.js app:
+
+First you may use Tailwind CSS, allowing you to style your app using utility classes.
+
+You are able to use scoped CSS Modules in a traditional way, by creating a CSS file and importing it into your component.
+
+Lastly, clsx allows you to use any or both of the above methods, and alongside adding conditional classes to your components.
