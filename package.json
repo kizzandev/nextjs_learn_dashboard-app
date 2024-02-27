@@ -6,8 +6,8 @@
     "devnet": "next dev -p 3000 -H 192.168.0.5",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "start": "next start",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
