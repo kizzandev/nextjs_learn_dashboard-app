@@ -1,7 +1,20 @@
+import { Metadata } from 'next';
+
 // Global CSS
 import '@/app/ui/global.css';
 // Fonts
 import { inter } from '@/app/ui/fonts';
+
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Acme',
+    default: 'Acme Dashboard',
+  },
+  description: 'Acme Dashboard built with Next.js and TypeScript.',
+  metadataBase: new URL('https://nextjs-learn-dashboard-app-kz.vercel.app/'),
+
+  keywords: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Dashboard'],
+};
 
 export default function RootLayout({
   children,
