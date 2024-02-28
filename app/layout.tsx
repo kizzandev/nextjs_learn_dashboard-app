@@ -8,7 +8,7 @@ import { inter } from '@/app/ui/fonts';
 export const metadata: Metadata = {
   title: {
     template: '%s | Acme',
-    default: 'Acme Dashboard',
+    default: 'Acme',
   },
   description: 'Acme Dashboard built with Next.js and TypeScript.',
   metadataBase: new URL('https://nextjs-learn-dashboard-app-kz.vercel.app/'),
