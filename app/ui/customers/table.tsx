@@ -3,7 +3,7 @@ import { lusitana } from '@/app/ui/fonts';
 import Search from '@/app/ui/search';
 import { fetchFilteredCustomers } from '@/app/lib/data';
 
-export default async function CustomersTable({query}: {query: string;}) {
+export default async function CustomersTable({ query }: { query: string }) {
   const customers = await fetchFilteredCustomers(query);
 
   return (
